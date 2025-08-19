@@ -15,11 +15,23 @@ A super simple FastAPI application that allows students to view and sign up for 
    pip install fastapi uvicorn
    ```
 
-2. Run the application:
+2. Run the application (choose one of the following methods):
 
+   **Method 1: Direct Python execution**
    ```
+   cd src
    python app.py
    ```
+
+   **Method 2: Using uvicorn directly**
+   ```
+   uvicorn src.app:app --reload
+   ```
+
+   **Method 3: Using VS Code (if available)**
+   - Open the project in VS Code
+   - Press F5 or use the "Run and Debug" panel
+   - Select "Launch Mergington WebApp"
 
 3. Open your browser and go to:
    - API documentation: http://localhost:8000/docs
